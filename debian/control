@@ -1,0 +1,33 @@
+Source: carml
+Maintainer: ju xor <ju@riseup.net>
+Section: python
+Priority: optional
+Build-Depends: dh-python, python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/meejah/carml
+
+Package: python-carml
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: A command-line tool to query and control a running Tor. Base
+ .. carml documentation
+ .
+ .
+ .. toctree::
+    :maxdepth: 2
+ .
+ .. note:: This code is intended as utilities mostly to help developers
+           and Tor experts interact with their systems. Nobody has
+           audited it for anonymitiy leaks (or worse). Use at your own
+           risk.
+ .
+ .
+ .. image:: https://readthedocs.org/projects/carml/badge/?version=latest
+     :target: https://carml.readthedocs.io/en/latest/
+     :alt: ReadTheDocs
+ .
+ .
+ carml
+ =====
+ .
+
