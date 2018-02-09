@@ -1,0 +1,21 @@
+Source: carml
+Maintainer: ju xor <ju@riseup.net>
+Section: python
+Priority: optional
+Build-Depends: debhelper,
+               dh-python,
+               python-all,
+               python-setuptools,
+               python-sphinx
+Standards-Version: 4.1.3
+Homepage: https://github.com/meejah/carml
+
+Package: python-carml
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends},
+         python-click,
+         python-humanize,
+         python-txsocksx,
+         python-txtorcon
+Description: carml is a command-line tool to query and control a running Tor
+ (including Tor Browser Bundle).
