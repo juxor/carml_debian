@@ -16,5 +16,5 @@ Depends: ${misc:Depends}, ${python3:Depends},
          python3-humanize,
          python3-pyasn1,
          python3-txtorcon
-Description: carml is a command-line tool to query and control a running Tor
+Description: command-line tool to query and control a running Tor
  (including Tor Browser Bundle).
