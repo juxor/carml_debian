@@ -1,0 +1,23 @@
+From: juxor <ju@riseup.net>
+Date: Thu, 12 Apr 2018 15:21:15 +0000
+Subject: Remove unneeded dependencies
+
+---
+ setup.py | 3 ---
+ 1 file changed, 3 deletions(-)
+
+diff --git a/setup.py b/setup.py
+index b8433e1..9c842bb 100644
+--- a/setup.py
++++ b/setup.py
+@@ -20,10 +20,7 @@ setup(
+     keywords=['python', 'twisted', 'tor', 'command-line', 'cli'],
+     install_requires=[
+         'humanize',
+-        'ansicolors',
+-        'backports.lzma',
+         'txtorcon>=0.19.1',
+-        'txsocksx>=1.15.0.2',
+         'click>=6.7',
+     ],
+     classifiers=[
